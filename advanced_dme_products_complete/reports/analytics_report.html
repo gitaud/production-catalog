@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DME Products Analytics Report</title>
+<style>body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f4f6f8;color:#222}
+.wrap{max-width:1100px;margin:0 auto;padding:24px}header{background:#0b5fa5;color:#fff;padding:20px 24px;border-radius:8px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+.stat{background:#fff;border-radius:8px;padding:14px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.stat b{font-size:26px;display:block;color:#0b5fa5}table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden}
+th,td{padding:8px 10px;border-bottom:1px solid #eee;text-align:left;font-size:14px}th{background:#0b5fa5;color:#fff}
+.barcell{width:30%}.bar{height:12px;background:#0b5fa5;border-radius:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.card{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.card .img{height:130px;display:flex;align-items:center;justify-content:center;background:#eef}
+.card img{max-width:100%;max-height:130px}.card .nm{font-size:12px;font-weight:bold;padding:6px 8px 0}
+.card .ct{font-size:11px;color:#666;padding:0 8px 8px}.noimg{color:#999;font-size:12px}
+h2{margin-top:28px}footer{color:#777;font-size:12px;margin:24px 0}</style></head>
+<body><div class="wrap">
+<header><h1>DME Products Analytics Report</h1><div>Generated: 2026-10-05 18:56:49 &nbsp;|&nbsp; Source: products_final.json</div></header>
+<div class="stats">
+<div class="stat"><b>1,051</b>Products</div>
+<div class="stat"><b>246</b>Categories</div>
+<div class="stat"><b>1,051</b>With images (100%)</div>
+<div class="stat"><b>194</b>With descriptions (18%)</div>
+</div>
+<h2>Top 20 Categories</h2>
+<table><tr><th>Category</th><th>Products</th><th>With images</th><th>With desc.</th><th></th></tr>
+      <tr><td>LIFT CHAIRS</td><td>93</td><td>93</td><td>1</td><td class="barcell"><div class="bar" style="width:100%"></div></td></tr>
+      <tr><td>ORTHOPEDICS</td><td>86</td><td>86</td><td>16</td><td class="barcell"><div class="bar" style="width:92%"></div></td></tr>
+      <tr><td>WHEELCHAIRS MANUAL</td><td>78</td><td>78</td><td>9</td><td class="barcell"><div class="bar" style="width:84%"></div></td></tr>
+      <tr><td>SCOOTER</td><td>77</td><td>77</td><td>4</td><td class="barcell"><div class="bar" style="width:83%"></div></td></tr>
+      <tr><td>BED AND MATTRESS</td><td>58</td><td>58</td><td>8</td><td class="barcell"><div class="bar" style="width:62%"></div></td></tr>
+      <tr><td>BATH SAFETY</td><td>48</td><td>48</td><td>12</td><td class="barcell"><div class="bar" style="width:52%"></div></td></tr>
+      <tr><td>WHEELCHAIRS POWER</td><td>43</td><td>43</td><td>4</td><td class="barcell"><div class="bar" style="width:46%"></div></td></tr>
+      <tr><td>CPAP BIPAP VPAPS VENTILATORS</td><td>42</td><td>42</td><td>7</td><td class="barcell"><div class="bar" style="width:45%"></div></td></tr>
+      <tr><td>ROLLATORS</td><td>40</td><td>40</td><td>1</td><td class="barcell"><div class="bar" style="width:43%"></div></td></tr>
+      <tr><td>ENTERAL NUTRITION</td><td>38</td><td>38</td><td>0</td><td class="barcell"><div class="bar" style="width:41%"></div></td></tr>
+      <tr><td>OXYGEN</td><td>24</td><td>24</td><td>3</td><td class="barcell"><div class="bar" style="width:26%"></div></td></tr>
+      <tr><td>HOYER LIFT</td><td>19</td><td>19</td><td>1</td><td class="barcell"><div class="bar" style="width:20%"></div></td></tr>
+      <tr><td>PAIN MANAGEMENT</td><td>19</td><td>19</td><td>4</td><td class="barcell"><div class="bar" style="width:20%"></div></td></tr>
+      <tr><td>CANES AND CRUTCHES</td><td>14</td><td>14</td><td>7</td><td class="barcell"><div class="bar" style="width:15%"></div></td></tr>
+      <tr><td>WALKERS</td><td>13</td><td>13</td><td>1</td><td class="barcell"><div class="bar" style="width:14%"></div></td></tr>
+      <tr><td>NEBULIZER</td><td>13</td><td>13</td><td>4</td><td class="barcell"><div class="bar" style="width:14%"></div></td></tr>
+      <tr><td>CATHETERS</td><td>12</td><td>12</td><td>3</td><td class="barcell"><div class="bar" style="width:13%"></div></td></tr>
+      <tr><td>COMMODES</td><td>10</td><td>10</td><td>4</td><td class="barcell"><div class="bar" style="width:11%"></div></td></tr>
+      <tr><td>PEDIATRICS WHEELCHAIR STROLLERS</td><td>9</td><td>9</td><td>0</td><td class="barcell"><div class="bar" style="width:10%"></div></td></tr>
+      <tr><td>PILLOW AND CUSHIONS</td><td>9</td><td>9</td><td>2</td><td class="barcell"><div class="bar" style="width:10%"></div></td></tr></table>
+<h2>Image Formats</h2>
+<table><tr><th>Format</th><th>Count</th></tr>
+      <tr><td>jpg</td><td>644</td></tr>
+      <tr><td>png</td><td>332</td></tr>
+      <tr><td>webp</td><td>67</td></tr>
+      <tr><td>avif</td><td>6</td></tr>
+      <tr><td>gif</td><td>2</td></tr></table>
+<h2>Sample Products</h2>
+<div class="grid">
+      <div class="card"><div class="img"><img src="../images/ALUMINUM QUAD CANES/aluminum-quad-cane1.jpg" alt="Aluminum Small base Quad Canes" loading="lazy"></div><div class="nm">Aluminum Small base Quad Canes</div><div class="ct">ALUMINUM QUAD CANES</div></div>
+      <div class="card"><div class="img"><img src="../images/CANES AND CRUTCHES/offsetcrane.jpg" alt="OFFSET HANDLE FASHION CRANES" loading="lazy"></div><div class="nm">OFFSET HANDLE FASHION CRANES</div><div class="ct">CANES AND CRUTCHES</div></div>
+      <div class="card"><div class="img"><img src="../images/CANES AND CRUTCHES/bariatic-2.jpg" alt="BARIATRIC QUAD CANES" loading="lazy"></div><div class="nm">BARIATRIC QUAD CANES</div><div class="ct">CANES AND CRUTCHES</div></div>
+      <div class="card"><div class="img"><img src="../images/CANES AND CRUTCHES/alluminum-crutches.jpg" alt="LUMEX TALL ADULT CRUTCHES" loading="lazy"></div><div class="nm">LUMEX TALL ADULT CRUTCHES</div><div class="ct">CANES AND CRUTCHES</div></div>
+      <div class="card"><div class="img"><img src="../images/COMMODES/commode1.jpg" alt="3-IN-1 all purpose COMMODE" loading="lazy"></div><div class="nm">3-IN-1 all purpose COMMODE</div><div class="ct">COMMODES</div></div>
+      <div class="card"><div class="img"><img src="../images/COMMODES/folding-commode.jpg" alt="FOLDING Steel COMMODE CHAIR" loading="lazy"></div><div class="nm">FOLDING Steel COMMODE CHAIR</div><div class="ct">COMMODES</div></div>
+      <div class="card"><div class="img"><img src="../images/WALKERS/walkers.jpg" alt="Walkers" loading="lazy"></div><div class="nm">Walkers</div><div class="ct">WALKERS</div></div>
+      <div class="card"><div class="img"><img src="../images/ROLLATORS/set-n-go-red.jpg" alt="SET N GO ADJUSTABLE HEIGHT ROLLATOR" loading="lazy"></div><div class="nm">SET N GO ADJUSTABLE HEIGHT ROLLATOR</div><div class="ct">RENTALS AND REPAIRS</div></div>
+      <div class="card"><div class="img"><img src="../images/ROLLATORS/bariatric-rollator.jpg" alt="WALKABOUT CONTOUR DELUXE ROLLATOR-BLUE" loading="lazy"></div><div class="nm">WALKABOUT CONTOUR DELUXE ROLLATOR-BLUE</div><div class="ct">ROLLATORS</div></div>
+      <div class="card"><div class="img"><img src="../images/ROLLATORS/123_1024x1024@2x.webp" alt="BARIATRIC WALKABOUT ROLLATOR-BL" loading="lazy"></div><div class="nm">BARIATRIC WALKABOUT ROLLATOR-BL</div><div class="ct">BARIATRIC WALKABOUT ROLLATOR BL</div></div>
+      <div class="card"><div class="img"><img src="../images/BATH SAFETY/Deluxe-Aluminum-Bath-Chair-31-1.jpg" alt="Deluxe Aluminum Bath Chair" loading="lazy"></div><div class="nm">Deluxe Aluminum Bath Chair</div><div class="ct">BATH SAFETY</div></div>
+      <div class="card"><div class="img"><img src="../images/BATH SAFETY/bath-safety.jpeg" alt="Transfer Tub Bench" loading="lazy"></div><div class="nm">Transfer Tub Bench</div><div class="ct">BATH SAFETY</div></div></div>
+<footer>Advanced DME Supplies catalog export.</footer>
+</div></body></html>

@@ -1,0 +1,4 @@
+# DME Products Automation Scripts - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+requests>=2.25.0     # For downloading images from URLs

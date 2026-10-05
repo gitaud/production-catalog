@@ -1,0 +1,16 @@
+{
+  "source": "www.advanceddmesupplies.com",
+  "extraction_date": "2026-10-04T14:49:55.026064",
+  "total_pages": 88,
+  "extraction_status": "SAMPLE (Pages 1-2 complete, proof of concept)",
+  "total_products_extracted_sample": 24,
+  "estimated_total_products": 1000,
+  "file_formats": [
+    "json",
+    "csv",
+    "html"
+  ],
+  "image_format": "jpg/png",
+  "categories_identified": 10,
+  "estimated_package_size_mb": 500
+}
