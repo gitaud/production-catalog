@@ -171,10 +171,11 @@ function makeDetailExtractFn() {
       }
     }
 
-    // 2) Short description shown near the "Add to cart" summary.
+    // 2) Short description shown near the "Add to cart" summary. Flatsome theme
+    //    (used on this site) renders the product copy in .product-short-description.
     if (!full_description) {
       const short = document.querySelector(
-        '.woocommerce-product-details__short-description, .woocommerce-Tabs-panel--description'
+        '.product-short-description, .woocommerce-product-details__short-description, .woocommerce-Tabs-panel--description'
       );
       if (short) {
         const t = clean(short.innerText);
